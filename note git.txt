@@ -19,3 +19,6 @@ git status (il affiche aussi vendor/)
 on créer dans notre dossier de projet le fichier .gitignore et on met dedans les fichiers qu'on veux pas git les voir.
 du coup on ecrit sur .gitignore vendor/
 et on refait un git status
+
+
+C MOI

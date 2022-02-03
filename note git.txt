@@ -1,0 +1,21 @@
+git log : savoir les commit qu'on a fait 
+git log -p nomfichier : savoir comment le fichier nomfichier a été modifié en cours du temps.
+git revert HEAD : revenir au commit precedent (il faux tout commiter pout pouvoir faire ça)
+git diff : savoir les difference qui était faite 
+git stash pour ne pas tenir cpt des derniers modif dans un fichier 
+git stash pop pour les remettre
+git checkout commit1 commit2 : passer d'un commit à un autre
+git numerocommit tag... 
+git tag
+remote : depot distant qui est juste un depot git. 
+
+git clone "@ de depot"
+
+création d'un dossier tpgit sous xampp
+composer init
+composer install (pour creer un fichier vendor)
+git init (pour declarer que c'est un fichier depot)
+git status (il affiche aussi vendor/)
+on créer dans notre dossier de projet le fichier .gitignore et on met dedans les fichiers qu'on veux pas git les voir.
+du coup on ecrit sur .gitignore vendor/
+et on refait un git status
